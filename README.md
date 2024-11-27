@@ -7,6 +7,7 @@ Weather Information: Retrieves weather data using the OpenWeatherMap API.
 Website Opening: Opens websites based on voice commands.
 Text-to-Speech: Uses pyttsx3 to convert text responses into speech.
 Future Multilingual Support: I plan to expand the assistant's capabilities by adding support for multiple languages, allowing users from different regions to interact with the assistant in their native language.
+
 Requirements
 Python 3.8
 Required Python libraries:
@@ -32,12 +33,14 @@ The assistant will respond with either a spoken reply or by opening the requeste
 Important Note
 VS Code: The voice assistant works well in Visual Studio Code.
 PyCharm: Currently, the voice assistant does not work properly in PyCharm. There is a known issue where the microphone input and speech recognition components may not work as expected. Therefore, it is highly recommended to use VS Code for running this project.
+
 How It Works
 Initialization: The voice assistant is initialized using pyttsx3 for speech synthesis.
 Greeting: The assistant greets you based on the time of day.
 Speech Recognition: The assistant listens to your voice commands using speech_recognition.
 Command Handling: The assistant checks the command and performs an action (e.g., opening a website or fetching weather information).
 Weather Information: The assistant fetches weather data using the OpenWeatherMap API and speaks the weather conditions aloud.
+
 Acknowledgements
 I would like to express my sincere thanks to Avi Upadhyay for his amazing tutorials on building voice assistants. His videos provided me with the initial knowledge and motivation to create this project. While following his guidance, I added my own features such as weather information and noise reduction for better voice recognition. Avi's content was crucial to the development of this voice assistant, and I deeply appreciate the value of his educational resources.
 
