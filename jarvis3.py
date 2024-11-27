@@ -48,7 +48,7 @@ def take_command():
 
 # Function to fetch weather information
 def get_weather(city):
-    api_key = "1b8499c835bbcbe44c2ab0cec065cd65"  # Replace with your OpenWeatherMap API key
+    api_key = ""  # Replace with your OpenWeatherMap API key
     url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"  # API endpoint
     response = requests.get(url)  # Send an HTTP GET request to the API
     data = response.json()  # Parse the JSON response
